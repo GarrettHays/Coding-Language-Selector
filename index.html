@@ -14,7 +14,7 @@
 
     <p>Thank you for your interest in joining Epicodus - we are glad you're here!</p>
     
-    <p>We know choosing to set out on a new adventure of growth and discovery in the world of technology can be a bit overwhelming, but choosing a language to learn is your first step. With that in mind, we have created a simple, easy-to-use Track Selector tool to hopefully help make that decision easier.</p>
+    <p>We know choosing to set out on a new adventure of growth and discovery in the world of technology can be a bit overwhelming, but choosing a language to learn is your first step. With that in mind, we have created a simple, easy-to-use tool to hopefully help make that decision easier.</p>
 
     <p>The Track Selector Tools is as easy as 1-2-3 and works something like this:</p>
 
@@ -24,22 +24,79 @@
         <li>Get your results! The Track Selector Tool will display which language may be best for you.</li>
       </ol>
     </div>
-    
+
     <form id="form">
-      <label for="age">Age</label>
-      <input id="age" type="text">
-      <label for="gender">Gender</label>
-      <select id="gender">
-        <option value="female">Female</option>
-        <option value="male">Male</option>
-      </select>
+        <div class="form-group">
+          <label for="name"><strong>Name:</strong></label>
+          <br>
+          <input id="name" type="text" required placeholder="Enter Name">
+        </div>
 
-      <button type="submit" class="btn">Calculate my quote</button>
+        <div class="form-group">
+          <label for="selectOne"><strong>Of the two, are you more interested in front-end or back-end development?</strong><br><em><small>If you aren't sure, <a href="https://www.indeed.com/career-advice/finding-a-job/back-end-vs-front-end-vs-full-stack-development">click here</a> to learn about each.</em></small></label>
+          <br>
+          <select id="selectOne" placeholder="Make Selection" required>
+            <option value="" selected disabled>Please Choose...</option>
+            <option value="frontEnd">Front-End Development</option>
+            <option value="backEnd">Back-End Development</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="selectTwo"><strong>Would you prefer to work at a larger company, or a smaller startup?</strong><br><em><small>To read about 10 differences between larger companies and smaller companies <a href="https://www.glassdoor.com/blog/small-large-companies-ten-differences-working/">click here</a>.</em></small></label>
+          <br>
+          <select id="selectTwo" placeholder="Make Selection" required>
+            <option value="" selected disabled>Please Choose...</option>
+            <option value="selectTwo-csjs">Larger Company</option>
+            <option value="selectTwo-python">Smaller Company</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="selectThree"><strong>Thinking about the syntax of the language, do you prefer it to be more technically written, or easier to read/write (closer to simple english)?</strong></label>
+          <br>
+          <select id="selectThree" placeholder="Make Selection" required>
+            <option value="" selected disabled>Please Choose...</option>
+            <option value="selectThree-csjs">Technical Syntax</option>
+            <option value="selectThree-python">User-Friendly Syntax</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="selectThree"><strong>Thinking about the syntax of the language, do you prefer it to be more technically written, or easier to read/write (closer to simple english)?</strong></label>
+          <br>
+          <select id="selectThree" placeholder="Make Selection" required>
+            <option value="" selected disabled>Please Choose...</option>
+            <option value="selectThree-csjs">Technical Syntax</option>
+            <option value="selectThree-python">User-Friendly Syntax</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn">Submit!</button>
+        </div>
     </form>
-
-    <div id="quote">
-      <p>You will have to pay $<span id="rate"></span> per month to get car insurance. You should probably just bike or take the bus.</p>
+      
+    <div id="resultC#">
+      <h1>C#</h1>
+      <h3>Congratulations <span class="name"></span>, we think you should learn C#!</h3>
+      <p>You expressed interest in backend programming as well as building apps. C# is a general-purpose programming language developed by Microsoft. C# is widely used for backend programming, building games, building Window mobile phone apps and lots of other use cases. <br> We think you would be great at it!</p>
+      <p><a href="index.html">Take Quiz Again</a></p>
     </div>
+
+    <div id="resultPython">
+      <h1>Python</h1>
+      <h3>Congratulations <span class="name"></span>, we think you should learn Python!</h3>
+      <p>Python is a very popular programming language for beginners because of its user-friendly syntax and versatility. Much of Python code reads like English, which helps beginners better quickly grasp fundamental concepts like functions. <br> With Python, you can build many different types of programs, and many introductory courses base their projects in this language. <br> We think you would be great at it!</p>
+      <p><a href="index.html">Take Quiz Again</a></p>
+    </div>
+
+    <div id="resultJS">
+      <h1>JavaScript</h1>
+      <h3>Congratulations <span class="name"></span>, we think you should learn JavaScript!</h3>
+      <p>JavaScript is a programming language that turns static web pages into dynamic ones. It enables page elements to do things like move, react to user actions like clicks, and handle any operation beyond simply existing on the page. <br> We think you would be great at it!</p>
+      <p><a href="index.html">Take Quiz Again</a></p>
+    </div>
+
   </div>
 </body>
 </html>
