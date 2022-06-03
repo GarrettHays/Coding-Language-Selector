@@ -19,7 +19,7 @@ _This project creates an application to help prospective students select a codin
 
 * Clone portfolio folder onto desktop from GitHub
 * Open index.html file in your browser
-* Fill out promts to identify which coding track is best for you
+* Fill out promts to identify which coding language may be best for you
 
 
 ## Known Bugs
