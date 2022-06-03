@@ -31,4 +31,4 @@ _This project creates an application to help prospective students select a codin
 
 MIT
 
-Copyright (c) _06/03/22_ _Garrett Hays_
+Copyright (c) _06/03/22_ _Garrett Hays_ 

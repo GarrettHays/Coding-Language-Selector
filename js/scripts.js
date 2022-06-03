@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     if (userSelect1 === "frontEnd") {
       $("#resultPython").show();
-      $("#resultPython").siblings().hide();
+      $("#resultPython").siblings().hide(); 
 
       } else {
         if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
