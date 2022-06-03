@@ -10,109 +10,109 @@ $(document).ready(function() {
 
     $(".name").text(userName);
 
-    if (userSelect1 === "backEnd") {
-      $("#resultCS").show();
-      $("#resultCS").siblings().hide();
+    if (userSelect1 === "frontEnd") {
+      $("#resultPython").show();
+      $("#resultPython").siblings().hide();
 
       } else {
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
           $("#resultJS").show();
           $("#resultJS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
           $("#resultJS").show();
           $("#resultJS").siblings().hide();
         }
 
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "frontEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
           $("#resultPython").show();
           $("#resultPython").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
           $("#resultJS").show();
           $("#resultJS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "frontEnd" && userSelect2 === "selectTwo-csjs" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
           $("#resultPython").show();
           $("#resultPython").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
           $("#resultJS").show();
           $("#resultJS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "frontEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-cs") {
           $("#resultPython").show();
           $("#resultPython").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
           $("#resultCS").show();
           $("#resultCS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
           $("#resultJS").show();
           $("#resultJS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
+        if (userSelect1 === "frontEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-cs") {
           $("#resultPython").show();
           $("#resultPython").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "frontEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
           $("#resultPython").show();
           $("#resultPython").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
           $("#resultJS").show();
           $("#resultJS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "frontEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-cs" && userSelect5 === "selectFive-js") {
           $("#resultPython").show();
           $("#resultPython").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-cs" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
           $("#resultJS").show();
           $("#resultJS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "backEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-js" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
           $("#resultJS").show();
           $("#resultJS").siblings().hide();
         }
-        if (userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
+        if (userSelect1 === "frontEnd" && userSelect2 === "selectTwo-python" && userSelect3 === "selectThree-python" && userSelect4 === "selectFour-python" && userSelect5 === "selectFive-js") {
           $("#resultPython").show();
           $("#resultPython").siblings().hide();
         }
