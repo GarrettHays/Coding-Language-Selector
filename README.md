@@ -1,4 +1,4 @@
-# Coding Track Slector
+# Coding Track Selector
 
 #### By _**Garrett Hays**_
 
