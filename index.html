@@ -27,7 +27,7 @@
 
     <form id="form">
         <div class="form-group">
-          <label for="name"><strong>Name:</strong></label>
+          <label for="name"><strong>What is your name?</strong></label>
           <br>
           <input id="name" type="text" required placeholder="Enter Name">
         </div>
@@ -53,7 +53,7 @@
         </div>
 
         <div class="form-group">
-          <label for="selectThree"><strong>Thinking about the syntax of the language, do you prefer it to be more technically written, or easier to read/write (closer to simple english)?</strong></label>
+          <label for="selectThree"><strong>Think about the syntax of the language. <br> Would you prefer it to be more technically written, or easier to read/write (closer to simple english)?</strong></label>
           <br>
           <select id="selectThree" placeholder="Make Selection" required>
             <option value="" selected disabled>Please Choose...</option>
@@ -63,40 +63,49 @@
         </div>
 
         <div class="form-group">
-          <label for="selectThree"><strong>Thinking about the syntax of the language, do you prefer it to be more technically written, or easier to read/write (closer to simple english)?</strong></label>
+          <label for="selectFour"><strong>Do you like to solve complex puzzles and riddles or do you prefer straightforward puzzles with more immediate outcomes?</strong></label>
           <br>
-          <select id="selectThree" placeholder="Make Selection" required>
+          <select id="selectFour" placeholder="Make Selection" required>
             <option value="" selected disabled>Please Choose...</option>
-            <option value="selectThree-csjs">Technical Syntax</option>
-            <option value="selectThree-python">User-Friendly Syntax</option>
+            <option value="selectFour-cs">Complex Puzzles</option>
+            <option value="selectThree-python">Straightforward Puzzles</option>
           </select>
         </div>
 
-        <button type="submit" class="btn">Submit!</button>
+        <div class="form-group">
+          <label for="selectFive"><strong>Think about solving a problem.<br> Do you like to have all of the information in front of you, clearly defined? <br> Or is it okay if you don't have every piece, as long as everything works correctly in the end?</strong></label>
+          <br>
+          <select id="selectFive" placeholder="Make Selection" required>
+            <option value="" selected disabled>Please Choose...</option>
+            <option value="selectFive-cs">All The Info</option>
+            <option value="selectFive-js">Just The Necessary Info</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
         </div>
     </form>
       
-    <div id="resultC#">
+    <div id="resultCS">
       <h1>C#</h1>
-      <h3>Congratulations <span class="name"></span>, we think you should learn C#!</h3>
+      <h3>Congratulations<span class="name"></span>, we think you should learn CS!</h3>
       <p>You expressed interest in backend programming as well as building apps. C# is a general-purpose programming language developed by Microsoft. C# is widely used for backend programming, building games, building Window mobile phone apps and lots of other use cases. <br> We think you would be great at it!</p>
       <p><a href="index.html">Take Quiz Again</a></p>
     </div>
 
     <div id="resultPython">
       <h1>Python</h1>
-      <h3>Congratulations <span class="name"></span>, we think you should learn Python!</h3>
+      <h3>Congratulations<span class="name"></span>, we think you should learn Python!</h3>
       <p>Python is a very popular programming language for beginners because of its user-friendly syntax and versatility. Much of Python code reads like English, which helps beginners better quickly grasp fundamental concepts like functions. <br> With Python, you can build many different types of programs, and many introductory courses base their projects in this language. <br> We think you would be great at it!</p>
       <p><a href="index.html">Take Quiz Again</a></p>
     </div>
 
     <div id="resultJS">
       <h1>JavaScript</h1>
-      <h3>Congratulations <span class="name"></span>, we think you should learn JavaScript!</h3>
+      <h3>Congratulations<span class="name"></span>, we think you should learn JavaScript!</h3>
       <p>JavaScript is a programming language that turns static web pages into dynamic ones. It enables page elements to do things like move, react to user actions like clicks, and handle any operation beyond simply existing on the page. <br> We think you would be great at it!</p>
       <p><a href="index.html">Take Quiz Again</a></p>
     </div>
-
   </div>
 </body>
 </html>
